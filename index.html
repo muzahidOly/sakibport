@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakib's Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+    
+<!--Nav bar-->
+<nav class="navbar">
+    <div class="navbar__container">
+
+        <a href="#home" id="navbar__logo">PORTFOLIO</a>
+        
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+
+
+
+</div>
+
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="#home" class="navbar__links" id="home-page">
+                    Home
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="#about" class="navbar__links" id="about-page">
+                    About
+                </a>
+            </li>
+          
+            <li class="navbar__item">
+                <a href="#service" class="navbar__links" id="service-page">
+                    Bio
+                </a>
+            </li>
+            <li class="navbar__btn">
+                <a href="contact.html" target="_blank" class="button" id="signup">
+                    Contact me
+                </a>
+            </li>
+            
+        </ul>
+
+</div>
+</nav>
+
+<!--Nav bar ends-->
+
+<!--Hero Section-->
+
+<div class="hero" id="home">
+
+    <div class="hero__container">
+        <h1 class="hero__heading">Sakib <br><span> Miah</span></h1>
+
+        <p class="hero__description">Open for Hiring</p>
+
+        <button class="main__btn" ><a  href="Sakib Miah resume.pdf" target="blank">My Resume </a></button>
+
+    </div>
+
+</div>
+
+<!--Hero Section Ends-->
+
+
+
+
+
+<!--ABout Section-->
+
+<div class="main" id="about">
+    <div class="main__container">
+      <div class="main__img--container">
+        <div class="main__img--card"><i >
+            <div class="sakibface"><img src="sakib.jpg" alt=""></div>
+            </i></div>
+        
+      </div>
+      <div class="main__content">
+<br><br><br><br>
+        <h1>Who am I?</h1>
+        <h2>I am a Problem Solver</h2>
+        <p>Give me a call to learn more about me</p>
+        <button class="main__btn " onclick="contactNumber()"><a >Schedule Call</a></button>
+
+      </div>
+    </div>
+  </div>
+
+<!--ABout Section Ends-->
+
+
+<!--Service section-->
+
+<div class="services" id="service">
+
+    <h1>My Biograpghy</h1>
+    <div class="service__description">
+    <h2>"Life is But a Journey"</h2></div>
+    <div class="main2__container">
+        <div class="main2__img--container">
+          
+            <div class="main2__img--card"><i >
+                <div class="main__content"> <p> My name is Sakib Miah. I'm a junior at Wayne State University. I am a Management
+                   Information Systems major with a Computer Science minor. I was born and raised in Michigan and intend to spend the
+                    rest of my life here. Capable leader and responsible team-member. I want to work somewhere where I can meet new people,
+                     develop new skills, and gain experience. One interesting fact about myself is that I am a Hafiz, which is someone who
+                      memorizes the Holy Book of Islam (Quran).I enjoy playing basketball, going fishing, spending time with family, and
+                       traveling around the world, among many other thing</p></div>
+                </i>
+              </div>
+        </div>
+  
+        </div>
+      </div>
+    </div>
+</div>
+
+<!--Footer-->
+
+<div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>Questions?</h2>
+          <a onclick="contactNumber()">Call me</a>
+          <a href="contact.html" target="_blank">Contact me</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>Website Info?</h2>
+          <a onclick="contactMuzahidNumber()">Contact Creator</a>
+          <a href="https://tinyurl.com/muzahidWebsite" target="blank">Creator's Website</a>
+
+          <a href="#home">Home</a>
+        </div>
+      </div>
+    
+    </div>
+    <section class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="#" id="footer__logo">PORTFOLIO</a>
+        </div>
+        
+        <p class="website__rights">Website created by Muzahid Oly. No Copyrights intended?</p>
+        <div class="social__icons">
+          <a href="#" class="social__icon--link" 
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/sakibm36/" target="blank" class="social__icon--link"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" class="social__icon--link"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/sakib-miah-585a92239/" target="blank" class="social__icon--link"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+         
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+<script src="app.js"></script>
+<script src="contactMuzahidNumber.js"></script>
+
+</body>
+</html>
